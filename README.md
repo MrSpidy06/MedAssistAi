@@ -1,4 +1,4 @@
-# MedAssist AI
+# MedAssistAi
 
 The project is split into a browser frontend and a FastAPI backend. The frontend runs on port 4173. The API and its local SQLite database run on port 8000.
 
