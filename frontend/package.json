@@ -1,0 +1,10 @@
+{
+  "name": "medassist-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MedAssist AI browser frontend",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  }
+}
