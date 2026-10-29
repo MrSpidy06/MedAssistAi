@@ -2,3 +2,4 @@ backend/.venv/
 backend/__pycache__/
 backend/data/*.sqlite3
 frontend/node_modules/
+.firebase/
