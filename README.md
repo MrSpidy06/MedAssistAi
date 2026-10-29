@@ -28,6 +28,10 @@ Open the app in a browser at **http://127.0.0.1:4173**. The backend status appea
 
 The frontend is dependency-free and uses Node's built-in server. The backend uses FastAPI and SQLite. FastAPI creates `backend/data/medassist.sqlite3` when it starts. The frontend keeps a browser-local copy as a fallback and syncs app state to the backend when it is available.
 
+## Firebase Analytics
+
+The frontend initializes Firebase and Google Analytics in `frontend/firebase-init.js`. It currently uses Firebase for Analytics only; patient and app data are not stored in Firebase.
+
 ## Included workflows
 
 - Patient and clinician demo workspaces
